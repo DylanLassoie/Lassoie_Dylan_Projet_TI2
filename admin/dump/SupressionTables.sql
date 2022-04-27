@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS public.client CASCADE;
+DROP TABLE IF EXISTS public.admin CASCADE;
+DROP TABLE IF EXISTS public.reservation CASCADE;
