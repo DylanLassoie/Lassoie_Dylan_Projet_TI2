@@ -4,12 +4,17 @@
 ?>
 
 <!doctype html>
-<html>
+<html lang="fr">
     <head>
-
+        <title>Lassoie Dylan Projet TI 2</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-
+        <?php
+            if(file_exists('./lib/php/menuPublic.php')) {
+                include('./lib/php/menuPublic.php');
+            }
+        ?>
     </body>
     <footer>
 

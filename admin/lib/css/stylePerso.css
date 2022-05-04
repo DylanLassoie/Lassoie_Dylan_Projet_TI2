@@ -1,0 +1,92 @@
+/*accueil.php*/
+.carousel-item{
+    height: 800px;
+}
+
+.container{
+    height: 350px;
+    padding-bottom: 50px;
+}
+
+.rappel{
+    padding-top: 300px;
+}
+
+.alert h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.alert-heading h4, p{
+    text-align: center;
+}
+
+/*menuPublic.php*/
+.nav {
+    margin-bottom: 25px;
+    position: relative;
+    width: auto;
+    height: 50px;
+    background-color: #34495e;
+    font-size: 0;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+}
+.nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item:nth-child(1) {
+    width: 100px;
+}
+.nav-item:nth-child(2) {
+    width: 140px;
+}
+.nav-item:nth-child(3) {
+    width: 140px;
+}
+.nav-item:nth-child(4) {
+    width: 180px;
+}
+
+/*indexPublic.html*/
+body html{
+    font-size: 12px;
+    font-family: sans-serif;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/*footer.html*/
+.end {
+    position: relative;
+    margin-top: 500px;
+    width: 100%;
+    height: 50px;
+    background-color: #34495e;
+    font-size: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.end p {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}

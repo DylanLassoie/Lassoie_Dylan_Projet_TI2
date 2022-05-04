@@ -6,7 +6,6 @@ if(isset($_POST['submit_login'])){
     if($adm!=null){
         print "<br>Bienvenue ".$adm[0]->login;
         $_SESSION['login'] = $adm[0]->login;
-        //unset($_SESSION['page']);
         print "<meta http-equiv=\"refresh\": Content=\"0;url=admin/index_.php?page=accueil.php\">";
 
     }else{
